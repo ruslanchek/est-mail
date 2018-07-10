@@ -1,0 +1,20 @@
+<mj-section>
+  <mj-column>
+    <mj-image 
+      width="150px"
+      src="https://static-realthub-com.ams3.digitaloceanspaces.com/mail/common/logos/realthub-bw.png"
+      >
+    </mj-image>
+    
+    <mj-text align="center">
+    	<a class="link-footer-nav" href="#">Contacts</a>
+      <a class="link-footer-nav" href="#">Terms</a>
+      <a class="link-footer-nav" href="#">Privacy</a>
+      <a class="link-footer-nav" href="#">Advertise</a>
+    </mj-text>
+    
+    <mj-text align="center">
+			&copy; 2018 Realthub Ltd.
+    </mj-text>
+  </mj-column>
+</mj-section>

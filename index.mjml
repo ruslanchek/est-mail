@@ -1,0 +1,47 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text color="#222E3F" font-family="Ubuntu, Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+    
+    <mj-style inline="inline">
+      .link-footer-nav {
+        color: #5A636F;
+        text-decoration: none;
+      	text-transform: uppercase;
+      	margin: 20px 10px 0;
+      	display: inline-block;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#F3F5F7">
+    <mj-include path="./header.mjml" />
+
+    <mj-section padding="20px 20px 30px" background-color="#fff" border-radius="8px">
+      <mj-column width="100%">
+        <mj-text line-height="34px" align="center">
+          <h1>
+            Welcome to Realthub!
+          </h1>
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="100%">
+        <mj-text line-height="24px" align="center" font-size="16px">
+          Confirm your e-mail by following that link below:
+          
+          <a href="https://realthub.com/auth/confirm-email/JusdjkweO239">https://realthub.com/auth/confirm-email/JusdjkweO239</a>
+        </mj-text>
+        
+        <mj-spacer height="22px"></mj-spacer>
+
+        <mj-button href="https://realthub.com/auth/confirm-email/JusdjkweO239" font-family="Ubuntu, Helvetica, Arial, sans-serif" background-color="#00914D" color="white" font-size="16px">
+          Confirm e-mail
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./footer.mjml" />
+  </mj-body>
+</mjml>

@@ -1,0 +1,9 @@
+<mj-section>
+  <mj-column>
+    <mj-image
+      width="150px"
+    	src="https://static-realthub-com.ams3.digitaloceanspaces.com/mail/common/logos/realthub-color.png"
+    >
+    </mj-image>
+  </mj-column>
+</mj-section>
