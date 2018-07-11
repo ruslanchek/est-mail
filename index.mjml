@@ -7,7 +7,7 @@
     </mj-attributes>
 
     <mj-style inline="inline">
-      .link-small { color: #5A636F; font-size: 12px; } .link-footer-nav { font-size: 14px; color: #888888; text-decoration: none; margin: 20px 10px 0; display: inline-block; } .h1 { margin: 0; }
+      .link-small { color: #5A636F; font-size: 12px; } .link-footer { color: #888888; text-decoration: none; } .link-footer-nav { font-size: 14px; color: #888888; text-decoration: none; margin: 20px 10px 0; display: inline-block; } .h1 { margin: 0; }
     </mj-style>
   </mj-head>
 
