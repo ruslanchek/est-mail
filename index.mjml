@@ -39,7 +39,7 @@
             {{buttonText}}
           </mj-button>
           
-          <mj-spacer height="20px"></mj-spacer>
+          <mj-spacer height="10px"></mj-spacer>
 
           <mj-text line-height="24px" align="center" font-size="12px">
             {{post}}
