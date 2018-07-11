@@ -1,44 +1,50 @@
 <mjml>
   <mj-head>
     <mj-attributes>
-      <mj-text color="#222E3F" font-family="Ubuntu, Helvetica, Arial, sans-serif" />
+      <mj-text color="#888888" font-family="Roboto, Open Sans, Helvetica, Arial, sans-serif" />
+
+      <mj-button font-family="San Farncisco, Roboto, Open Sans, Helvetica, Arial, sans-serif" font-size="14px" color="#fff" background-color="#33A465" inner-padding="15px" />
     </mj-attributes>
-    
+
     <mj-style inline="inline">
-      .link-footer-nav {
-        color: #5A636F;
-        text-decoration: none;
-      	text-transform: uppercase;
-      	margin: 20px 10px 0;
-      	display: inline-block;
-      }
+      .link-small { color: #5A636F; font-size: 11px; } .link-footer-nav { color: #888888; text-decoration: none; margin: 20px 10px 0; display: inline-block; }
     </mj-style>
   </mj-head>
 
-  <mj-body background-color="#F3F5F7">
+  <mj-body background-color="#F8F9FB">
     <mj-include path="./header.mjml" />
 
-    <mj-section padding="20px 20px 30px" background-color="#fff" border-radius="8px">
-      <mj-column width="100%">
-        <mj-text line-height="34px" align="center">
-          <h1>
-           	{{title}}
-          </h1>
-        </mj-text>
-      </mj-column>
+    <mj-wrapper padding="0 30px">
+      <mj-section border="1px solid #EFF1F2" border-bottom="2px solid #EFF1F2" background-color="#fff">
+        <mj-column width="100%">
+          <mj-text line-height="24px" align="center" font-size="14px">
+            {{pre}}
+          </mj-text>
 
-      <mj-column width="100%">
-        <mj-text line-height="24px" align="center" font-size="16px">
-          {{body}}
-        </mj-text>
-        
-        <mj-spacer height="22px"></mj-spacer>
+          <mj-text line-height="34px" align="center" color="#000">
+            <h1>
+              {{title}}
+            </h1>
+          </mj-text>
+        </mj-column>
 
-        <mj-button href="{{buttonUrl}}" font-family="Ubuntu, Helvetica, Arial, sans-serif" background-color="#00914D" color="white" font-size="16px">
-          {{buttonText}}
-        </mj-button>
-      </mj-column>
-    </mj-section>
+        <mj-column width="100%">
+          <mj-text line-height="24px" align="center" font-size="14px">
+            {{body}}
+          </mj-text>
+
+          <mj-spacer height="22px"></mj-spacer>
+
+          <mj-button href="{{buttonUrl}}">
+            {{buttonText}}
+          </mj-button>
+
+          <mj-text line-height="24px" align="center" font-size="12px">
+            {{post}}
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
 
     <mj-include path="./footer.mjml" />
   </mj-body>

@@ -1,10 +1,16 @@
 <mj-section>
   <mj-column>
     <mj-image
-      href="https://realthub.com?from=email"
-      width="150px"
+      href="{{siteUrl}}"
+      width="130px"
     	src="https://static-realthub-com.ams3.digitaloceanspaces.com/mail/common/logos/realthub-color.png"
     >
     </mj-image>
+    
+    <mj-text align="center">
+      <a class="link-small" href="{{linkUnderLogoUrl}}">
+        {{linkUnderLogoText}}
+      </a>
+    </mj-text>	
   </mj-column>
 </mj-section>
