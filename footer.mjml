@@ -1,6 +1,6 @@
 <mj-spacer height="40px"></mj-spacer>
 
-<mj-wrapper full-width="full-width" background-color="#fff" padding="0">
+<mj-wrapper full-width="full-width" background-color="#fff" padding="0" border-top="1px solid #EFF1F2">
   <mj-section>
     <mj-column>
       <mj-image href="{{siteUrl}}" width="130px" src="https://static-realthub-com.ams3.digitaloceanspaces.com/mail/common/logos/realthub-bw.png">
