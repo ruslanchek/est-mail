@@ -1,16 +1,17 @@
 <mj-section>
   <mj-column>
     <mj-image 
+      href="https://realthub.com?from=email"
       width="150px"
       src="https://static-realthub-com.ams3.digitaloceanspaces.com/mail/common/logos/realthub-bw.png"
       >
     </mj-image>
     
     <mj-text align="center">
-    	<a class="link-footer-nav" href="#">Contacts</a>
-      <a class="link-footer-nav" href="#">Terms</a>
-      <a class="link-footer-nav" href="#">Privacy</a>
-      <a class="link-footer-nav" href="#">Advertise</a>
+    	<a class="link-footer-nav" href="https://realthub.com/about/contacts?from=email">Contacts</a>
+      <a class="link-footer-nav" href="https://realthub.com/about/terms?from=email">Terms</a>
+      <a class="link-footer-nav" href="https://realthub.com/about/privacy?from=email">Privacy</a>
+      <a class="link-footer-nav" href="https://realthub.com/about/advertise?from=email">Advertise</a>
     </mj-text>
     
     <mj-text align="center">

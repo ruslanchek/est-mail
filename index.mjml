@@ -22,22 +22,20 @@
       <mj-column width="100%">
         <mj-text line-height="34px" align="center">
           <h1>
-            Welcome to Realthub!
+           	{{title}}
           </h1>
         </mj-text>
       </mj-column>
 
       <mj-column width="100%">
         <mj-text line-height="24px" align="center" font-size="16px">
-          Confirm your e-mail by following that link below:
-          
-          <a href="https://realthub.com/auth/confirm-email/JusdjkweO239">https://realthub.com/auth/confirm-email/JusdjkweO239</a>
+          {{body}}
         </mj-text>
         
         <mj-spacer height="22px"></mj-spacer>
 
-        <mj-button href="https://realthub.com/auth/confirm-email/JusdjkweO239" font-family="Ubuntu, Helvetica, Arial, sans-serif" background-color="#00914D" color="white" font-size="16px">
-          Confirm e-mail
+        <mj-button href="{{buttonUrl}}" font-family="Ubuntu, Helvetica, Arial, sans-serif" background-color="#00914D" color="white" font-size="16px">
+          {{buttonText}}
         </mj-button>
       </mj-column>
     </mj-section>
