@@ -2,8 +2,8 @@
   <mj-column>
     <mj-image
       href="{{siteUrl}}"
-      width="130px"
-    	src="https://static-realthub-com.ams3.digitaloceanspaces.com/mail/common/logos/realthub-color.png"
+      width="50px"
+    	src="https://static-realthub-com.ams3.digitaloceanspaces.com/mail/common/logos/realthub-short-color.png"
     >
     </mj-image>
     
