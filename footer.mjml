@@ -16,11 +16,9 @@
 
       <mj-spacer height="10px"></mj-spacer>
 
-      <mj-text align="center" line-height="18px" font-size="11px">
+      <mj-text align="center" line-height="18px" font-size="12px">
         {{copyright}} 
-        <a href="{{unsubscribeLinkUrl}}">
-          {{unsubscribeLinkText}}
-        </a>.
+        <a href="{{unsubscribeLinkUrl}}">{{unsubscribeLinkText}}</a>.
       </mj-text>
     </mj-column>
   </mj-section>
